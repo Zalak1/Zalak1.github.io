@@ -1,0 +1,36 @@
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align:left;
+  font-family: 'Times New Roman', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  background-color: #F333FF;}
+
+header  {
+  text-align: left;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header .profile-image {
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+table{
+	border-collapse:collapse;
+}
+td,th{
+	border:1px solid #999;
+	padding :0.5rem;
+	text-align: left;
+}
+
